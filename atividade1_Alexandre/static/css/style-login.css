@@ -1,0 +1,53 @@
+div.fundo-login{
+    display: flex;
+    justify-content: center     ;
+    
+}
+
+#titulo{
+    display: flex;
+    color: white;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    margin:100px 0px 0px 0px;
+   
+    
+}
+#inome{
+    color: white;
+}
+/*
+.dados{
+    display: flex;
+    justify-content: center;
+}
+*/
+#email{
+    color: white;
+    
+}
+form.dados{
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+}
+body{
+    background: url("../img/imagem-fundo-login.jpg" ) no-repeat ;
+    background-size: 100%;
+    /*background-size: contain;*/
+    /*height: 100%;
+    width: 100%;   */
+}
+
+div.finallogin a{
+    font-size: 20px;
+    color: slategray;
+    justify-content: right;
+}
+
+.finallogin{
+    display: flex;
+    justify-content: space-between;
+    margin:2px;
+}

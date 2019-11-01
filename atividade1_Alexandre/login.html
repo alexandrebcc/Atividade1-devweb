@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- essa linha especifica a versão do html utilizado. A partir do html 5 essa linha é suficiente para descrever -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 5</title>
+    <link rel="stylesheet" href="static/css/style-login.css">
+    <script src="static/js/main.js"></script>
+</head>
+<body>
+    
+    <h1 id="titulo">Login</h1>
+
+    <!--criando um formulário-->
+    <div class="fundo-login">
+
+        <form class="dados" action="/EnviarMensagem" method="post">
+            <div>
+            <br><br><label id="inome" for="inome">Nome:</label><br>
+            <input id="inome" style="height: 30px"type="text" size="40" maxlength="50" placeholder="Teu nome">
+            </div>
+            <div>
+            <label for="email">E-mail:</label><br>
+            <input style="height: 30px" type="text"; size="40" maxlength="50" placeholder="Teu e-mail">
+        </div>
+            <div class="finallogin">
+                <button type="submit">Entrar</button>
+                <a href="index.html">Esqueci Minha Senha</a>
+            </div> 
+        </form>
+        
+    </div>
+</body>
+</html>
